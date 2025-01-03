@@ -9,7 +9,7 @@ import { Label } from '@/components/ui/label';
 import Link from 'next/link';
 import React from 'react';
 
-export default function RegisterForm() {
+export default function RegisterForm() {   
   return (
     <div className="min-h-screen flex items-center justify-center bg-purple-100">
       <Card className="w-[400px] bg-purple-200/50 backdrop-blur-sm">
@@ -51,3 +51,7 @@ export default function RegisterForm() {
     </div>
   );
 }
+
+
+
+
